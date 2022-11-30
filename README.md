@@ -18,7 +18,12 @@ Test de evaluación
 
 **1. Listar al menos los primeros 150 Pokemones del API https://pokeapi.co**
 
-Endpoint:
+Endpoints:
   
+- Lista de Pokemones
     https://pokeapi.co/api/v2/pokemon
+
+- Avatars
+
+    https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/pokemonID.png
 
