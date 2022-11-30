@@ -27,3 +27,8 @@ Endpoints:
 
     https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/pokemonID.png
 
+- Detalle de Pokemon
+
+    https://pokeapi.co/api/v2/pokemon/pokeminID/
+    
+    
