@@ -48,6 +48,11 @@ Endpoints:
 
     implementation 'com.google.code.gson:gson:2.10'
 
+- Para uso de componentes de Material Design
+
+  implementation 'androidx.recyclerview:recyclerview:1.2.1'
+  implementation 'androidx.cardview:cardview:1.0.0'
+
 
 
 
