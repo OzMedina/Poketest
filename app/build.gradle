@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'com.pixelbitperu.poketest'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.pixelbitperu.poketest"
@@ -30,7 +30,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-
+    //Activando el ViewBinding
     buildFeatures {
         viewBinding = true
     }
@@ -46,16 +46,21 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
 
+    //ViewModel
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1"
-
+    //LiveData (comunica los cambios de los modelos del ViewModel a la Activity mediante patrón Observer
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.5.1"
-
+    //Activity para facilitar la creación de ViewModel en el Activity
     implementation "androidx.activity:activity-ktx:1.6.1"
-
+    //ReciclerView para manejar las listas
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    //CardView para manejo de vistas de tarjetas
     implementation 'androidx.cardview:cardview:1.0.0'
-
+    //Retrofit para simplificar la conexión y consultas con el API
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    //Gson para la interpretación(fotmateo) de la data devuelta por el API en formato Json
     implementation 'com.google.code.gson:gson:2.10'
+    //Glide para mostrar las imágenes
+    implementation 'com.github.bumptech.glide:glide:4.14.2'
 
 }
