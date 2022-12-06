@@ -5,6 +5,15 @@
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
+
+<!-- Paleta de colores GAMEBOY POKET-->
     <color name="black">#FF000000</color>
+    <color name="dark_gray">#545454</color>
+    <color name="light_grey">#a9a9a9</color>
+    <color name="ultra_light_grey">#dadada</color>
+    <color name="ultra_light_grey2">#fafafa</color>
     <color name="white">#FFFFFFFF</color>
+
+
+
 </resources>

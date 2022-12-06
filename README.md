@@ -22,7 +22,7 @@ Endpoints:
   
 - Lista de Pokemones
 
-    https://pokeapi.co/api/v2/pokemon
+    https://pokeapi.co/api/v2/pokemon/
 
 - Avatars
 
@@ -30,7 +30,11 @@ Endpoints:
 
     https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/pokemonID.png
 
-    https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/pokemonID.svg
+    https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/pokemonID.svg (vectorial)
+
+    https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/pokemonID.gif (animado)
+
+    https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/gray/1.png (escala de grises)
 
 
 - Detalle de Pokemon
@@ -46,16 +50,20 @@ Endpoints:
 
 - Gson (Formateo de información devuelta por el API)
 
-    implementation 'com.google.code.gson:gson:2.10'
+    implementation 'com.google.code.gson:gson:2.10' (no funciona)
+    implementation "com.squareup.retrofit2:converter-gson:2.9.0"
 
 - Para uso de componentes de Material Design
 
-  implementation 'androidx.recyclerview:recyclerview:1.2.1'
-  implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+- Para el manejo de hilos
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.6")
 
 - Para mostrar las imágenes
 
-  implementation 'com.github.bumptech.glide:glide:4.14.2'
+    implementation 'com.github.bumptech.glide:glide:4.14.2'
 
 
 

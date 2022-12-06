@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ultra_light_grey2"
+    android:padding="10dp"
+    tools:context=".ui.launch.view.LaunchActivity">
+
+    <ImageView
+        android:id="@+id/pokedexlogo_bw"
+        android:layout_width="300dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="150dp"
+        android:contentDescription="@string/launchLogo"
+        android:src="@drawable/pokedex_logo_bw"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/ultra_light_grey"
+        android:fontFamily="@font/pokemon_gb_raeo"
+        android:text="@string/START"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pokedexlogo_bw"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pokemon_gb_raeo"
+        android:text="2022 Dev. Oscar Medina"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

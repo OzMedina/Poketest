@@ -59,8 +59,12 @@ dependencies {
     //Retrofit para simplificar la conexión y consultas con el API
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     //Gson para la interpretación(fotmateo) de la data devuelta por el API en formato Json
-    implementation 'com.google.code.gson:gson:2.10'
+    //implementation 'com.google.code.gson:gson:2.10' //NO CARGA
+    implementation "com.squareup.retrofit2:converter-gson:2.9.0"
+    //Corutines para el manejo de hilos
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.6")
     //Glide para mostrar las imágenes
     implementation 'com.github.bumptech.glide:glide:4.14.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.14.2'
 
 }
