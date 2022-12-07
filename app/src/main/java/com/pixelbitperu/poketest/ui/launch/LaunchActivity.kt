@@ -1,9 +1,11 @@
-package com.pixelbitperu.poketest.ui.launch.view
+package com.pixelbitperu.poketest.ui.launch
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.pixelbitperu.poketest.R
 import com.pixelbitperu.poketest.databinding.ActivityLaunchBinding
+import com.pixelbitperu.poketest.ui.pokemonlist.PokemonListActivity
 
 class LaunchActivity : AppCompatActivity() {
 
@@ -12,7 +14,8 @@ class LaunchActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityLaunchBinding.inflate(layoutInflater)
-        setContentView(R.layout.activity_launch)
+        setContentView(binding.root)
+
 
         //startAudio()
     }
@@ -24,6 +27,10 @@ class LaunchActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
 
+        binding.btnStart.setOnClickListener {
+            val intent = Intent(this,PokemonListActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 }

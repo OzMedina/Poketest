@@ -1,4 +1,4 @@
-package com.pixelbitperu.poketest.ui.pokemonlist.view
+package com.pixelbitperu.poketest.ui.pokemonlist
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

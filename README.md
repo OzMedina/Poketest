@@ -1,5 +1,7 @@
 # Poketest
 
+**Desarrollador: Oscar Medina (Oz)**
+
 Test de evaluación
 
 **Requerimientos e indicaciones**

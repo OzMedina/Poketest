@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/ultra_light_grey2"
     android:padding="10dp"
-    tools:context=".ui.launch.view.LaunchActivity">
+    tools:context=".ui.launch.LaunchActivity">
 
     <ImageView
         android:id="@+id/pokedexlogo_bw"
