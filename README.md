@@ -36,7 +36,7 @@ Endpoints:
 
     https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/pokemonID.gif (animado)
 
-    https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/gray/1.png (escala de grises)
+    https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/yellow/gray/1.png (escala de grises solo hasta 150 pokemones)
 
 
 - Detalle de Pokemon

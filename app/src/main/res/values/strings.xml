@@ -2,7 +2,7 @@
     <string name="app_name">Poketest</string>
 
     <!--    bases_url-->
-    <string name="url_api_base_data">https://pokeapi.co/api/v2/</string>
+<!--    <string name="url_api_base_data">https://pokeapi.co/api/v2/</string>-->
     <string name="url_api_base_sprites">https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/</string>
 
     <!--    buttons-->

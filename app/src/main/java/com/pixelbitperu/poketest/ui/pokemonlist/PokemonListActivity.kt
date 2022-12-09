@@ -12,5 +12,8 @@ class PokemonListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityPokemonListBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+
+
     }
 }
